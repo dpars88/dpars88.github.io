@@ -3223,3 +3223,15 @@ input, select, textarea {
 	.favicon-credit {
 		font-size: 10px;
 	}
+
+	.technologies {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.icon-container {
+		display: flex;
+		flex-direction: row;
+		flex-flow: column;
+	}
