@@ -3227,11 +3227,13 @@ input, select, textarea {
 	.technologies {
 		list-style: none;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+		font-size: 4em;
+		justify-content: space-around;
 	}
 
 	.icon-container {
 		display: flex;
 		flex-direction: row;
-		flex-flow: column;
+		flex-flow: row;
 	}
